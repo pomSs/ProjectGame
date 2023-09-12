@@ -32,6 +32,12 @@ public class PlayerController : MonoBehaviour
         return score;
 
     }
+    public int GetKey()
+    {
+
+        return Key;
+
+    }
 
     private void Start()
     {
